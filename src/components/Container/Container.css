@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin: 16px -16px 0;
+}
+
+@media screen and (max-width: 1239px) {
+    .container {
+        margin: 16px;
+    }
+}

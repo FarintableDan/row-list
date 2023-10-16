@@ -1,0 +1,23 @@
+.block {
+    padding: 16px;
+    margin: 0 auto;
+
+    border: 1px solid black;
+}
+
+@media screen and (max-width: 1239px) {
+    .block {
+        width: 100%;
+    }
+    .block:not(:last-child) {
+        margin-bottom: 16px;
+    }
+}
+
+@media screen and (min-width: 1240px) {
+    .block {
+        margin: 0 16px;
+
+        min-height: 350px;
+    }
+}
